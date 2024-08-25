@@ -1,6 +1,6 @@
 let array = [];
 const visualizer = document.getElementById("visualizer");
-let speed = 50; // Default speed
+let speed = 50;
 
 function generateArray(size) {
   array = [];
@@ -81,7 +81,7 @@ async function selectionSort() {
       }
     }
     if (minIndex !== i) {
-      // Swap elements
+      // swap elements
       let temp = array[i];
       array[i] = array[minIndex];
       array[minIndex] = temp;
@@ -236,5 +236,4 @@ document.getElementById("start").addEventListener("click", () => {
   }
 });
 
-// Generate an initial array with a default size
 generateArray(20);

@@ -1,4 +1,4 @@
-/* Reset some default styles */
+
 body, h1, label, button {
     margin: 0;
     padding: 0;
@@ -18,7 +18,7 @@ body, h1, label, button {
   }
   
   .container {
-    background: linear-gradient(135deg, #ffffff, #e0f7fa); /* White to light blue gradient */
+    background: linear-gradient(135deg, #ffffff, #e0f7fa);
     border-radius: 12px;
     padding: 40px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
@@ -29,10 +29,10 @@ body, h1, label, button {
   }
   
   h1 {
-    font-size: 2.8em; /* Larger heading */
-    color: #000000; /* Teal blue */
+    font-size: 2.8em; 
+    color: #000000; 
     margin-bottom: 30px;
-    font-weight: 700; /* Bolder text */
+    font-weight: 700; 
   }
   
   .controls {
@@ -45,16 +45,16 @@ body, h1, label, button {
   
   .controls label {
     font-size: 1.3em;
-    font-weight: 700; /* Bolder text */
-    color: #000000; /* Darker teal blue */
+    font-weight: 700; 
+    color: #000000; 
   }
   
   .controls select, .controls input, .controls button {
     padding: 12px;
     border-radius: 6px;
-    border: 1px solid #00838f; /* Teal blue border */
+    border: 1px solid #00838f;
     font-size: 1.1em;
-    font-weight: 600; /* Bolder text */
+    font-weight: 600;
   }
   
   .controls select {
@@ -65,7 +65,7 @@ body, h1, label, button {
     -webkit-appearance: none;
     width: 200px;
     height: 10px;
-    background: #e0f7fa; /* Light blue background */
+    background: #e0f7fa; 
     border-radius: 5px;
     outline: none;
     margin: 0 15px;
@@ -75,7 +75,7 @@ body, h1, label, button {
     -webkit-appearance: none;
     width: 25px;
     height: 25px;
-    background: #00838f; /* Teal blue */
+    background: #00838f;
     border-radius: 50%;
     cursor: pointer;
   }
@@ -83,13 +83,13 @@ body, h1, label, button {
   .controls input[type="range"]::-moz-range-thumb {
     width: 25px;
     height: 25px;
-    background: #00838f; /* Teal blue */
+    background: #00838f;
     border-radius: 50%;
     cursor: pointer;
   }
   
   .controls button {
-    background: linear-gradient(135deg, #5761B2, #1fc5a8); /* Teal blue to light blue gradient */
+    background: linear-gradient(135deg, #5761B2, #1fc5a8); 
     color: #fff;
     border: none;
     cursor: pointer;
@@ -98,7 +98,7 @@ body, h1, label, button {
   }
   
   .controls button:hover {
-    background: linear-gradient(135deg, #4fc3f7, #00838f); /* Light blue to teal blue gradient on hover */
+    background: linear-gradient(135deg, #4fc3f7, #00838f); 
   }
   
   .visualizer {
@@ -106,8 +106,8 @@ body, h1, label, button {
     align-items: flex-end;
     justify-content: center;
     gap: 5px;
-    height: 350px;
-    border-top: 2px solid #4fc3f7; /* Light blue border */
+    height: 340px;
+    border-top: 2px solid #4fc3f7;
     padding: 15px;
     background: #ffffff;
     border-radius: 6px;
@@ -121,7 +121,7 @@ body, h1, label, button {
   }
   
   .bar {
-    background: linear-gradient(135deg, #5761B2, #1fc5a8); /* Teal blue to light blue gradient */
+    background: linear-gradient(135deg, #5761B2, #1fc5a8); 
     border-radius: 6px 6px 0 0;
     width: 25px;
     margin: 0 3px;
@@ -129,8 +129,8 @@ body, h1, label, button {
   
   .bar-label {
     font-size: 0.9em;
-    font-weight: 700; /* Bolder text */
-    color: #00838f; /* Teal blue */
+    font-weight: 700;
+    color: #00838f; 
     margin-top: 8px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
   }
@@ -140,7 +140,7 @@ body, h1, label, button {
   }
   
   #sizeValue {
-    font-weight: 700; /* Bolder text */
-    color: #00838f; /* Teal blue */
+    font-weight: 700;
+    color: #00838f;
   }
   
